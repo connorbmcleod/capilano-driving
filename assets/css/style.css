@@ -1,1 +1,60 @@
-style
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    text-align: center;
+    height: 40px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 1em; 
+}
+
+/* hero-image styles */
+#hero-image {
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: grid;
+    height: 30em;
+    border: 1px solid black;
+}
+
+#center {
+    margin: auto;
+    text-align: center;
+}
+
+#center h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+/* intro text styles */
+#intro-text, #about {
+    width: 40em;
+    margin: 0 auto
+}
+
+#intro-text h1 {
+    text-align: center;
+    font-size: 2em;
+    margin: 50px 0 50px 0;
+}
+
+#intro-text p, #about p {
+    line-height: 2.5em;
+}
+
+/* spacer image styles */
+
+.divider-image {
+    height: 20em;
+    display: grid;
+    border: 1px solid black;  
+}
+
+.divider-image h1 {
+    margin: auto;
+}
